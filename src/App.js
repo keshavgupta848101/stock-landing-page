@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+// import React, {useState} from 'react'
+// import Icon from "./components/icon"
+// import { ToastContainer, toast } from 'react-toastify';
+// import 'react-toastify/dist/ReactToastify.css';
+// import {Card, CardBody, Container, Row, Col, Button} from 'reactstrap'
+// import 'bootstrap/dist/css/bootstrap.css';
+// import './App.css'
 
-function App() {
+// const itemArray = new Array(9).fill("empty")
+// const App = () =>{
+//   const 
+// }
+import Hero from './components/Hero'
+import Navbar from './components/Navbar'
+function App(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Hero />
     </div>
-  );
+  )
 }
 
 export default App;
